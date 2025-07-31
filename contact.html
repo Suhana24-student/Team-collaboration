@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - Asha Bhavan</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+ <header>
+    <div class="logo-container">
+      <img src="ashalogo.png" alt="School Logo" class="logo" />
+      <h1 class="school-name">
+        Asha<br />Bhavan<br />
+      </h1>
+    </div>
+    <nav class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="infrastructure.html">Infrastructure</a>
+      <a href="academics.html">Academics</a>
+      
+      <a href="contact.html">Contact</a>
+  
+      <a href="admission.html" class="admission-btn">Admission </a>
+    </nav>
+    
+  </header>
+
+
+  <main>
+    <br>
+    <br>
+    <h2 class="contact" >Contact Us</h2><br>
+    <br><br>
+    <form onsubmit="submitForm(event)">
+      <label>Name:</label><br />
+      <input type="text" id="name" required /><br /><br />
+      
+      <label>Email:</label><br />
+      <input type="email" id="email" required /><br /><br />
+      
+      <label>Message:</label><br />
+      <textarea id="message" rows="4" required></textarea><br /><br />
+      
+      <button class="btn">Send</button>
+    </form>
+    <p id="formStatus"></p>
+  </main>
+<!--
+  <footer>
+    <p>&copy; 2025 Asha Bhavan.</p>
+  </footer>-->
+</body>
+</html>
