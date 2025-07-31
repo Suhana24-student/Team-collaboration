@@ -1,0 +1,140 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+.top-bar {
+  background-color: #d8a624;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101010;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.admission-btn {
+  background-color: #005bbb;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.slideshow {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 50px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+
+.hero-section {
+  background: url('school-campus.jpg') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 50px;
+  position: relative;
+}
+
+.hero-content {
+  background-color: rgba(221, 190, 100, 0.8);
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 28px;
+  color: #2c1f00;
+}
+
+.enquire-now {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  background-color: #f5c400;
+  padding: 10px 5px;
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  border-radius: 10px 0 0 10px;
+}
+ .social-sidebar {
+  position: fixed;
+  left: 0;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 5px;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.social-sidebar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white; /* optional: give a background to look neat */
+  border-radius: 50%; /* make them circular */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* soft shadow */
+  transition: transform 0.2s ease;
+}
+
+.social-sidebar a:hover {
+  transform: scale(1.1);
+}
+
+.social-sidebar a img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+
+.social-sidebar a img {
+  width: 30px;
+  height: 30px;
+  }
