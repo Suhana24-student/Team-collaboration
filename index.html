@@ -1,52 +1,231 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cochin International School</title>
-  <link rel="stylesheet" href="style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asha Bhavan</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-  <header>
-    <div class="top-bar">
-        <div class="container">
-            <marquee class="marquee" onmouseover="this.stop()" onmouseout="this.start()";
-        direction="left">
-        <span> Admissions are open for 2025–26 batch- PreKG to Grade 10</span></marquee></div></div>
-    <nav class="navbar">
-      <div class="logo">AshaBhavan</div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Infrastructure</a></li>
-        <li><a href="#">Academics</a></li>
-        <li><a href="#">Beyond Academics</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a class="admission-btn" href="#">Admission 2025–2026</a></li>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="ashalogo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="beyond academics.html">BEYOND ACADEMICS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <br>
+        <br>
+        
+        <div class="text-box">
+            <h1 class="hero-text">Building a More Inclusive Future</h1>
+            
+        
+            <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Asha Bhavan is conducting various courses for the disabled girls to achieve the goal of self-sufficiency in life. It will help to get job in Govt. or private sector those who completed the courses. Most of our students are deaf and dumb, mild mentally retarded and orthopedically handicapped. We are giving them training in Computer, Tailoring and Embroidery, Fashion Designing & Garment technology in short FDGT.</p>
+      <!-- <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>-->
+
+                   <br>     <a href="course.html" class="hero-btn-red-btn">EXPOLER NOW</a>
+
+        </div>
+    </section>
+    
+<!---------- campus ---------->
+    
+    <section class="campus">
+        <h1>Our Global campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+            </div>
+    </section>
+    
+    
+<!---------- testimonials ---------->
+    
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/user1.jpg">
+                    <div> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                        <h3>Christine Berkley</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                        <h3>David Byer</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!------ Call To Action ------>
+
+<section class="cta">
+    
+       <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="hero-btn">CONTACT US</a>
+    
+</section>  
+<!--------------footer--------------->  
+ <footer>
+<section class="footer">
+  
+  
+    <div class="logos">
+       <a href="index.html"><img src="ashalogo.png" alt="logo" /></a>
+      <!--<button class="admission-btn">Admission 2025–2026</button>-->
+    
+    </div>
+  </div>
+
+  <div class="footer-columns">
+    
+    <div class="column">
+      <h3>EXPLORE</h3>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="beyond academics.html">Beyond Academics</a></li>
       </ul>
-    </nav>
-  </header>
+    </div>
 
-  <section class="hero-section slideshow">
-  <div class="hero-content">
-    <h1>A complete educational system that cradles the finest.</h1>
+    <div class="column">
+      <h3>CAMPUS</h3>
+      <ul>
+        <li>Gallery</li>
+        <li><a href="course.html">Courses</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="column">
+      <h4>CONTACT US</h4>
+      <p>18/431A, Vayanashala Chemmapady Road, <br />
+      Pukkattupady, Malayidamthuruth P.O,<br />
+      Ernakulam 683561</p>
+      <p>+91 97784 12991, +91 79073 01566</p>
+      <p><a href="mailto:admissions@cochins.org">admissions@cochins.org</a></p>
+      <section class="locations">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3926.3385594170995!2d76.32360237503427!3d10.23425458988352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDE0JzAzLjMiTiA3NsKwMTknMzQuMiJF!5e0!3m2!1sen!2sin!4v1754144869213!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
   </div>
-</section>
-
-
-  <div class="enquire-now">ENQUIRE NOW</div>
-
-  <!-- Optional: Social Media Sidebar -->
-  <div class="social-sidebar">
-    <a href="#"><img src="calllogo.jpeg" alt="link"/></a>
-    <a href="#"><img src="maillogo.webp" alt="email"/></a>
-    <a href="#"><img src="wp.webp" alt="whatsapp"/></a>
-    <a href="#"><img src="instalogo.webp" alt="instagram"/></a>
-    <a href="#"><img src="linkedlogo.webp" alt="linkedin"/></a>
-    <a href="#"><img src="fblogo.webp" alt="facebook"/></a>
+ 
+  <div class="bottom-bar">
+    <p>Copyright © 2025 Cochin International School. All Rights Reserved.</p>
   </div>
+  </section>
+  </section>
+</footer>
+<!--------footer----------->
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
 
-  <script src="script.js"></script>
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
 </body>
 </html>
+
+
+
+
+
+
+
+
