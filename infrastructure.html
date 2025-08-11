@@ -1,28 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asha Bhavan</title>
-  <link rel="stylesheet" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-  <!-- Header with Logo and Navigation -->
-  <header>
-    <div class="logo-container">
-      <img src="ashalogo.png" alt="School Logo" class="logo" />
-      <h1 class="school-name">
-        Asha<br />Bhavan<br />
-      </h1>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="ashalogo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="beyond academics.html">BEYOND ACADEMICS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+<!--<section class="course-about">
+     <div class="course-row">
+        <div class="course-col">
+            <h2>About our Courses</h2>
+            <p>Asha Bhavan is conducting various courses for the disabled girls to achieve the goal of self-sufficiency in life. It will help to get job in Govt. or private sector those who completed the courses. Most of our students are deaf and dumb, mild mentally retarded and orthopedically handicapped. We are giving them training in Computer, Tailoring and Embroidery, Fashion Designing & Garment technology in short FDGT.</p>
+        </div>    
     </div>
-    <nav class="navbar">
-      <a class="active" href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="infrastructure.html">Infrastructure</a>
-      <a href="academics.html">Academics</a>
-      <a href="contact.html">Contact</a>
-      
-      <a href="admission.html" class="admission-btn">Admission</a>
-  <script src="script.js"></script>
+</section>-->
+
+
+
+    <section class="course">
+        <h1>What We Offer</h1>
+        <p>.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Computer Courses </h3>
+                <p>We place strong emphasis on computer education as a key component of skill development courses such as MS Office, Desktop Publishing (DTP), and English and Malayalam typing. we offer courses are designed to equip them with essential digital literacy skills relevant to today’s professional environment.We also provide structured exam preparation to ensure our students are well-prepared for certification. We are proud to note that our computer training program is recognized by the Indian Computer Academy, further enhancing the credibility and value of the course.</p>
+            </div>
+            <div class="course-col">
+                <h3>Tailoring Course</h3>
+                <p>Hand on skills training includes master in garment construction, alteration and repair techniques. Precision and attention to detail and develop fine motor skills. The main career paths we intended to our trainees to be a tailor and alteration specialist. We firstly assessed the current level of the students and set a plan and started training. Termly and timely evaluations and monitoring made the training programes more effective and fruitful. </p>
+            </div>
+            <div class="course-col">
+                <h3>Embroidery </h3>
+<p>Embroidery has its traditional importance. It can be calming and meditative, promoting relaxation and focus. Add value to garments and made attractive stitching patterns.These courses will help these students to achieve self-sufficiency in life and secure job in private and public sector. And it will help reach of the mainstream of the society.  </p>
+            </div>
+            <div class="course-col">
+                <h3>Fashion Designing & Garment Technology Course</h3>
+<p>Our Fashion designing course is shortly known as FDGT. Develop skills in garment construction, textile science and fashion illustration.learn about current trends, patterns and designs in the fashion industry.Gets to pursue careers in fashion designing and styling. In public sector schools there are posted as craft teacher.
+The course  affiliation  is from technical education for fashion designing and garment technology (KGTE -FDGT). </p> 
+
+           </div>
+        </div>
+    </section>
+    
+<!-------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<footer>
+<section class="footer">
+  
+  
+    <div class="logos">
+       <a href="index.html"><img src="ashalogo.png" alt="logo" /></a>
+      <!--<button class="admission-btn">Admission 2025–2026</button>-->
+    
+    </div>
+  </div>
+
+  <div class="footer-columns">
+    
+    <div class="column">
+      <h3>EXPLORE</h3>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="beyond academics.html">Beyond Academics</a></li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <h3>CAMPUS</h3>
+      <ul>
+        <li>Gallery</li>
+        <li><a href="course.html">Courses</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="column">
+      <h4>CONTACT US</h4>
+      <p>18/431A, Vayanashala Chemmapady Road, <br />
+      Pukkattupady, Malayidamthuruth P.O,<br />
+      Ernakulam 683561</p>
+      <p>+91 97784 12991, +91 79073 01566</p>
+      <p><a href="mailto:admissions@cochins.org">admissions@cochins.org</a></p>
+      <section class="locations">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3926.3385594170995!2d76.32360237503427!3d10.23425458988352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDE0JzAzLjMiTiA3NsKwMTknMzQuMiJF!5e0!3m2!1sen!2sin!4v1754144869213!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+  </div>
+ 
+  <div class="bottom-bar">
+    <p>Copyright © 2025 Cochin International School. All Rights Reserved.</p>
+  </div>
+  </section>
+  </section>
+</footer>
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
 </body>
-</html>
+</html>    
