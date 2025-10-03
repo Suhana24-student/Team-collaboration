@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-    <section class="sub-header">
+    <section class="sub-header-about">
         <nav>
             <a href="index.html"><img src="ashalogo.png"></a>
             <div class="nav-links" id="navLinks">  
@@ -23,78 +23,141 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>   
             <h1>About Us</h1>
+            
     </section>
     
     
 <!------- about us content -------->
-    <br>
-    <br>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <div class="head">
     <h1>Welcome to our website!</h1>
     <p>As you explore our  website, you will discover a wealth of information and we eagerly await the opportunity to welcome you and your family at the campus.</p>
 </div>
 <br>
 <br>
-<section class="container">
-    <div class="row">
-        <div class="about-col">
-            <h1>Transforming Potential into Independence</h1>     
-            <p>Ashabhavan established in the year 1993 and it stands to empower the marginalized and differently abled girls and bring them in to the mainstream of the society. Today Ashabhavan has become a shelter and power to the weak and downtrodden all around. It is our ambition to help them themselves, guide them to lead a disciplined, instruct them and set goals to enable them to secure an independent and happy existence. Subsequently we hope to mould their personalities into responsible citizens, proud of themselves, self-confident powerful individuals. Ashabhavan girls are talented in various ways and do display them in numerous fields they are engaged. They are acquiring training in the Fashion designing and Garment technology for a govt. approved certificate course. Under the Indian Computer Education Society MS OFFICE, DTP and PSC recognized CBC (Computer Basic Course) courses are also furnished. For those who cannot cope with the above mentioned courses. Courses like tailoring and embroidery are offered.</p>
-        </div>
-        <div class="about-col">
-            <img src="ashabhavan.jpg">
-        </div>
-    </div>  
+<br>
+
+
+<!-- Container -->
+  <div class="container">
+    <section class="hero">
+      <img src="ashabhavan.JPG" alt="Ashabhavan Building" class="hero-img">
+
+      <!-- Gradient Overlay -->
+      <div class="gradient"></div>
+
+      <!-- Text Content Over Image -->
+      <div class="text-overlay">
+        <h1>Transforming Potential into Independence</h1>
+        <p class="preview">
+          Ashabhavan established in the year 1993 and it stands to empower the marginalized
+          and differently abled girls and bring them into the mainstream of the society.
+        </p>
+        <p class="full-text">
+          Today Ashabhavan has become a shelter and power to the weak and downtrodden all around. 
+          It is our ambition to help them themselves, guide them to lead a disciplined, 
+          instruct them and set goals to enable them to secure an independent and happy existence. 
+          Subsequently we hope to mould their personalities into responsible citizens, 
+          proud of themselves, self-confident powerful individuals. 
+          <br><br>
+          Ashabhavan girls are talented in various ways and do display them in numerous fields 
+          they are engaged. They are acquiring training in Fashion designing and Garment technology 
+          for a govt. approved certificate course. Under the Indian Computer Education Society 
+          MS OFFICE, DTP and PSC recognized CBC (Computer Basic Course) courses are also furnished. 
+          For those who cannot cope with the above mentioned courses, tailoring and embroidery 
+          are offered.
+        </p>
+        <button id="readMoreBtn">Read More</button>
+      </div>
     </section>
-
-<br>
-<br>
-
-      <div class=" vision">
-      <h2>VISION</h2>
-        <div class="hover-area">
-          <p>
-            We envision a just society that encourages the potential of people with disabilities to become self-reliant, dignified and contributing individuals.
-          </p>
-          <a href="#" class="view-more">View more +</a>
-        </div>
-    </div>
-<br>
-<br>
-<br>
+  </div>
 
 
-      <div class=" mission">
-      <h2>Mission</h2>
-        <div class="hover-area">
-          <p>
-          Provide guidance, education and vocational training for the mainstreaming and holistic growth of the differently abled.
-          </p>
-          <a href="#" class="view-more">View more +</a>
-        </div>
-    </div>
-
-      
 
 
-</section>
-<section class="objectives">
-    <div class="obj-row">
-        <div class="obj-col">
-            <h3>Objectives</h3>
-            <p>●	To provide a quality education academically, vocationally and spiritually.<br>
-●	To promote holistic developmental opportunities that widens horizons and capacities<br>
-●	To empower them for the personality development and to encourage the creativity and self-sufficiency.<br>
-●	To help them to face the realities and lead a happy life.<br>
-●	To help the parents and siblings to accept the children as they are.
-</p>
-</div>
-      </div> 
-</section>
-<br>
-<br>
-
+<!-- Mission & Vision Section -->
+<section class="mission-vision-section">
+ 
+  <div class="mv-container">
     
+    <!-- Mission Box -->
+    <div class="mv-card">
+      <h3> Our Mission</h3>
+      <p>
+       Provide guidance, education and vocational training for the mainstreaming and holistic growth of the differently abled.
+
+
+      </p>
+    </div>
+
+    <!-- Vision Box -->
+    <div class="mv-card">
+      <h3> Our Vision</h3>
+      <p>
+       We envision a just society that encourages the potential of people with disabilities to become self-reliant, dignified and contributing individuals.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!----------objectives----------------->
+
+ 
+<section class="objective">
+    <h2>OBJECTIVES</h2>
+    <div class="objective-container">
+      
+      <div class="objective-box left top">
+        <p>
+          		To help the parents and siblings to accept the children as they are.
+        </p>
+      </div>
+
+      <div class="objective-box right top">
+        <p>
+       To provide a quality education academically, vocationally and spiritually.
+        </p>
+      </div>
+
+      <div class="objective-center">
+        <p>To help them to face the realities and lead a happy life.</p>
+      </div>
+
+      <div class="objective-box left bottom">
+        <p>
+         To empower them for the personality development
+          <span class="dots">...</span>
+          <span class="more-text"> and to encourage the creativity and self-sufficiency.</span>
+          <span class="more" onclick="toggleMore(this)">more</span>
+        </p>
+      </div>
+
+      <div class="objective-box right bottom">
+        <p>
+          To promote holistic developmental opportunities 
+          <span class="dots">...</span>
+          <span class="more-text"> that widens horizons and capacities.</span>
+          <span class="more" onclick="toggleMore(this)">more</span>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  
+
+    <br>
+    <br>
 <!-------- footer ---------->
 
 <footer>
@@ -146,21 +209,21 @@
   </div>
   </section>
   </section>
-</footer> 
+</footer>
+
   
   
-<!----JavaScript for toggle menu---->
+<script src="mission.js"></script>
 <script>
-    var navLinks = document.getElementById("navLinks");
+    // Toggle Read More
+    const btn = document.getElementById("readMoreBtn");
+    const fullText = document.querySelector(".full-text");
 
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
-
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
-</script> 
+    btn.addEventListener("click", () => {
+      fullText.classList.toggle("show");
+      btn.textContent = fullText.classList.contains("show") ? "Show Less" : "Read More";
+    });
+  </script>
     
 </body>
 </html>    
